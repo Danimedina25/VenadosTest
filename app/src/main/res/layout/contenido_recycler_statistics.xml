@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@color/blanco"
+              android:id="@+id/contenido_recycler"
+              android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/gris">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Tabla General"
+                  android:layout_gravity="left"
+                  android:textStyle="bold"
+                  android:textSize="20sp"
+                  android:textColor="@color/blanco"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="JJ"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="100dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/blanco"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="DG"
+                  android:layout_gravity="right"
+                  android:layout_marginLeft="20dp"
+                  android:textStyle="bold"
+                  android:textSize="20sp"
+                  android:textColor="@color/blanco"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="PTS"
+                  android:layout_gravity="right"
+                  android:layout_marginLeft="20dp"
+                  android:textStyle="bold"
+                  android:textSize="20sp"
+                  android:textColor="@color/blanco"/>
+
+
+    </LinearLayout>
+
+  <android.support.v7.widget.CardView
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center"
+  android:id="@+id/cardview"
+  app:cardCornerRadius="0dp"
+  android:clickable="true"
+  android:layout_centerHorizontal="true"
+  android:innerRadius="100dp"
+  android:shape="ring"
+  android:thicknessRatio="1.9"
+  app:cardBackgroundColor="@color/verde">
+
+      <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/posicion_tabla"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/blanco"/>
+
+   <ImageView android:layout_width="80dp" android:layout_height="100dp"
+   android:src="@drawable/escudo"
+   android:clickable="true"
+   android:padding="15dp"/>
+          <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VENADOS F.C."
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="@color/blanco"/>
+          <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:id="@+id/jj"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="@color/blanco"/>
+          <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:id="@+id/dg"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="@color/blanco"/>
+          <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:id="@+id/pts"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="@color/blanco"/>
+      </LinearLayout>
+  </android.support.v7.widget.CardView>
+</LinearLayout>
+
+
+

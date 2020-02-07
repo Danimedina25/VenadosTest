@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="verde">#35682D </color>
+    <color name="negro">#000000 </color>
+    <color name="blanco">#ffffff </color>
+    <color name="azul">#0000ff </color>
+    <color name="rojo">#ff0000 </color>
+    <color name="aqua">#00FFFF</color>
+    <color name="gris">#808080</color>
+    <color name="salom_light">#FFA07A</color>
+    <color name="fondo">#F5F4F2</color>
+</resources>

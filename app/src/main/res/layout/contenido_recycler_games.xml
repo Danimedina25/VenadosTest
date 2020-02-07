@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/contenido_recycler"
+android:orientation="vertical">
+
+ <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:orientation="vertical"
+      android:background="@color/gris">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/mes"
+    android:text=""
+    android:layout_marginTop="5dp"
+    android:textSize="18sp"
+    android:layout_gravity="left"
+    android:textColor="@color/blanco"
+    android:textStyle="bold"
+ />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde"
+    android:orientation="horizontal">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+        <ImageView
+                android:layout_width="50dp"
+                android:id="@+id/calendario"
+                android:layout_height="50dp"
+                android:src="@drawable/calendario"
+                android:layout_marginLeft="0dp"
+        />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="16"
+                  android:layout_gravity="center"
+                  android:textColor="@color/blanco"
+                  android:textStyle="bold"
+                  android:layout_marginLeft="0dp"
+                  android:id="@+id/dia_numero"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="SÁB"
+                  android:layout_gravity="center"
+                  android:textColor="@color/blanco"
+                  android:textStyle="bold"
+                  android:layout_marginLeft="0dp"
+                  android:id="@+id/dia_letra"/>
+    </LinearLayout>
+<LinearLayout
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_marginTop="20dp"
+ android:orientation="vertical">
+    <ImageView
+    android:layout_width="100dp"
+    android:id="@+id/equipo1"
+    android:layout_height="100dp"
+    android:layout_marginLeft="10dp"
+   />
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:text=""
+    android:textColor="@color/blanco"
+    android:textStyle="bold"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/nombre_equipo1"/>
+</LinearLayout>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:id="@+id/resultado_equipo1"
+android:text="2"
+android:textColor="@color/blanco"
+android:textStyle="bold"
+android:textSize="40sp"
+android:layout_marginTop="40dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="-"
+  android:textColor="@color/blanco"
+  android:textStyle="bold"
+  android:textSize="40sp"
+  android:layout_marginTop="40dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/resultado_equipo2"
+              android:text="1"
+              android:textColor="@color/blanco"
+              android:textStyle="bold"
+              android:textSize="40sp"
+              android:layout_marginTop="40dp"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="20dp">
+        <ImageView
+                android:layout_width="100dp"
+                android:id="@+id/equipo2"
+                android:layout_height="100dp"
+        />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text=""
+                  android:textColor="@color/blanco"
+                  android:textStyle="bold"
+                  android:layout_gravity="center"
+                  android:id="@+id/nombre_equipo2"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
